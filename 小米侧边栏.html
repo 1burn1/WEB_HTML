@@ -3,18 +3,40 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>DEFAULT</title>
+    <title>小米侧边栏</title>
     <style>
-        a {
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            width: 1200px;
+            height: 460px;
+            margin: 0 auto;
+            background-color: pink;
+        }
+
+        .left {
             width: 230px;
-            height: 40px;
+            height: 460px;
+            background-color: #414247;
+            float: left;
+        }
+
+        .right {
+            width: 970px;
+            height: 460px;
+            background-color: skyblue;
+            float: left;
+        }
+
+        a {
             text-decoration: none;
-            background-color: #55585a;
+            color: #fafafa;
             display: block;
-            color: #fff;
-            font-size: 14px;
-            padding-left: 30px;
-            line-height: 40px;
+            height: 45px;
+            line-height: 45px;
         }
 
         a:hover {
@@ -24,13 +46,23 @@
 </head>
 
 <body>
-    <a href="#">手机&nbsp;电话卡</a>
-    <a href="#">电视&nbsp;盒子</a>
-    <a href="#">笔记本&nbsp;平板</a>
-    <a href="#">出行&nbsp;穿戴</a>
-    <a href="#">智能&nbsp;路由器</a>
-    <a href="#">健康&nbsp;儿童</a>
-    <a href="#">耳机&nbsp;音响</a>
+    <div class="box">
+        <div class="left">
+            <a href="#">手机</a>
+            <a href="#">电视</a>
+            <a href="#">笔记本&nbsp;平板</a>
+            <a href="#">出行&nbsp;穿戴</a>
+            <a href="#">耳机&nbsp;音箱</a>
+            <a href="#">家电</a>
+            <a href="#">智能&nbsp;路由器</a>
+            <a href="#">电源&nbsp;配件</a>
+            <a href="#">健康&nbsp;儿童</a>
+            <a href="#">生活&nbsp;箱包</a>
+        </div>
+        <div class="right">
+
+        </div>
+    </div>
 </body>
 
 </html>

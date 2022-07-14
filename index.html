@@ -44,13 +44,34 @@
             background-color: #888888;
             color: red;
         }
+
+        .border1 {
+            width: 300px;
+            height: 200px;
+            border-width: 5px;
+            border-style: dashed;
+            border-color: black;
+        }
+
+        table {
+            width: 500px;
+            text-align: center;
+            margin: 0px auto;
+        }
+
+        table,
+        td,
+        th {
+            border: 1px solid pink;
+            border-collapse: collapse;
+        }
     </style>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <a href="https://xdxdd.org/index.php/archives/51/#morphing-content">博客</a>
-    <table align="center" border="1" width="500" cellspacing="0">
+    <table>
         <thead>
             <tr>
                 <th>排名</th>
@@ -424,5 +445,6 @@
     </div>
     <a href="小米侧边栏.html" target="_blank">小米侧边栏</a>
     <a href="./五彩导航.html">五彩导航栏</a>
+    <div class="border1"></div>
 
 </html>
